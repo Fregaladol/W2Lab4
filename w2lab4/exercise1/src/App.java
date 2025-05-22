@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class App {
 
+    static Scanner scanner = new Scanner(System.in);
+
     /*   1.1- Llamas al método desde el main, sin parámetros, y sin return, y te hace el programa entero, incluyendo scanner etc (resultado ejemplo: ‘Hola Andrés’).
 
     Resumen: llamas al método y allí haces todo
@@ -18,7 +20,6 @@ public class App {
 
     public static void fun1 (){
         
-        Scanner scanner = new Scanner(System.in);
         
         System.out.println("Método 1.1");
         System.out.println("Escribe tu saludo");
@@ -29,7 +30,6 @@ public class App {
 
         System.out.println( greetings + " " + name);
 
-        scanner.close();
     }
 
     public static void fun12(String saludo, String name){
@@ -48,9 +48,6 @@ public class App {
 
 
     public static void main(String[] args) throws Exception {
-
-        
-        Scanner scanner = new Scanner(System.in);
 
         fun1();
 
