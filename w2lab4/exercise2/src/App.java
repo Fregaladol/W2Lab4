@@ -8,7 +8,7 @@ public class App {
     }
 
     public static float metodoRestar(float a, float b){
-        return a - b;
+        return b - a;
     }
 
     public static float metodoMultiplicar(float a, float b){
